@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+  background-color: #f8f4ea;
+  text-align: center;
+  padding: 20px;
+}
+
+.top h1 {
+  color: #579bb1;
+}
+
+.entergroup {
+  display: flex;
+  justify-content: center;
+}
+
+.enter {
+  background-color: #579bb1;
+  color: white;
+  height: 40px;
+  width: 60px;
+  border: hidden;
+  font-size: 25px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.enter:hover {
+  background-color: #437d90;
+}
+
+#text {
+  height: 40px;
+  border: hidden;
+  width: 400px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#choose {
+  border: hidden;
+}
+
+body {
+  background-color: #ece8dd;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.center {
+  width: 400px;
+  margin-top: 30px;
+}
+
+#app {
+  list-style-type: none;
+}
+
+#app li {
+  height: 30px;
+  font-size: 20px;
+  background-color: #e1d7c6;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn,
+.btn3 {
+  color: #f8f4ea;
+  background-color: #e1d7c6;
+  border: hidden;
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+.btn:hover {
+  color: red;
+}
+
+.exportdiv {
+  display: flex;
+  justify-content: center;
+}
+
+#export {
+  background-color: #579bb1;
+  color: white;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 100px;
+  border: hidden;
+  border-radius: 5px;
+}
+
+#export:hover {
+  background-color: #437d90;
+}
+
+.important {
+  color: #fc9303;
+}
+
+.warn {
+  color: red;
+}
+
+.btnimportant {
+  background-color: #fc9303;
+  color: white;
+  height: 40px;
+  width: 60px;
+  border: hidden;
+  font-size: 25px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btnwarn {
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 60px;
+  border: hidden;
+  font-size: 25px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btnnormal {
+  background-color: #579bb1;
+  color: white;
+  height: 40px;
+  width: 60px;
+  border: hidden;
+  font-size: 25px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btn3:hover {
+  color: #52cc00;
+}
+
+.btn33 {
+  background-color: #52cc00;
+  color: white;
+  border-radius: 5px;
+  border: hidden;
+  font-size: 20px;
+  padding: 0px 5px;
+}

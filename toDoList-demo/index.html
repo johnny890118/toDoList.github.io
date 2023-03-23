@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>待辦事項</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="top">
+      <h1>待辦事項</h1>
+      <br />
+      <div class="entergroup">
+        <input id="text" type="text" placeholder="請輸入待辦事項" />
+        <select id="choose" onchange="myfunction4()">
+          <option value="normal">一般</option>
+          <option value="important">重要</option>
+          <option value="warn">緊急</option>
+        </select>
+        <button id="enter" class="enter" onclick="myfunction()">+</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="center">
+        <ul id="app"></ul>
+      </div>
+    </div>
+    <div class="exportdiv">
+      <button id="export" onclick="myfunction3()">匯出為純文字</button>
+    </div>
+  </body>
+</html>
